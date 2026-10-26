@@ -1,0 +1,6 @@
+check,result
+Rows,20
+Duplicate names after first occurrence,1
+Marks outside 0-100,1
+Attendance outside 0-100,0
+Total missing cells,0

@@ -1,0 +1,29 @@
+SWYNEX Data Analysis Internship — Task 2
+Exploratory Data Analysis Report
+
+Dataset size
+- 20 records and 5 columns.
+- No missing cells in the data supplied for this analysis.
+
+Descriptive statistics
+- Average age: 20.75 years.
+- Average attendance: 82.05%.
+- Median attendance: 85.50%.
+- Attendance range: 61% to 99%.
+- One marks value (-10) is outside the expected 0–100 range.
+- Excluding that invalid value, average marks are 73.11 and median marks are 68.
+- Valid recorded marks range from 45 to 99.
+
+Insights
+1. The average attendance is 82.05%, and the median is 85.5%, indicating that the middle of the attendance distribution is relatively high compared with some lower values.
+2. Attendance varies from 61% to 99%, a 38-percentage-point range.
+3. One mark is -10, which is invalid on a 0–100 scale. Verify it with the original source; do not assume the correct replacement.
+4. After excluding the invalid mark, mean marks are 73.11 and median marks are 68. The mean being above the median suggests some higher scores pull the average upward.
+5. Student_20 has the highest valid mark (99) but attendance of 65%, so high marks do not always coincide with high attendance in these records.
+6. Student_1 appears under IDs 1 and 8 with different ages, marks, and attendance. Investigate whether this is a naming placeholder issue or an incorrect label; do not delete automatically.
+7. The correlation between marks and attendance is approximately -0.506 when the invalid mark is excluded, indicating a weak negative linear relationship in this sample. With only 19 valid scores, this is not evidence of causation and should be interpreted cautiously.
+
+Limitations
+- This is a small dataset (20 rows).
+- No passing threshold or grading policy was provided, so pass/fail rates are not inferred.
+- Correlation does not imply causation.

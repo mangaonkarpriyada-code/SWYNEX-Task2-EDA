@@ -1,0 +1,4 @@
+,age,marks,attendance_percentage
+age,1.0,-0.164,-0.455
+marks,-0.164,1.0,-0.506
+attendance_percentage,-0.455,-0.506,1.0
